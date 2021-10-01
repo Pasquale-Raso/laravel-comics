@@ -1,0 +1,38 @@
+.footer_box {
+    background-color: $second-grey;
+    color: $White;
+    z-index: 10;
+    position: relative;
+    height: 100px;
+ 
+    .log {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        li {
+            display: inline-block;
+            margin: 10px;
+            margin-top: 10px;
+            cursor: pointer;
+            h4 {
+                margin-top: 25px;
+            }
+            a {
+                text-decoration: none;
+                color: $first-blue;
+            }
+            img {
+                width: 30px;
+                margin-top: 30px;
+            }
+        }
+        .button-footer{
+            font-size: 12px;
+            margin-top: 25px;
+            padding: 10px;
+            background-color: $second-grey;
+            border: 2px solid $first-blue;
+        }
+    }
+}
+  

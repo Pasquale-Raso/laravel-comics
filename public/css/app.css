@@ -71,7 +71,7 @@ header .row ul a:active, header .row ul a:hover {
   height: 300px;
 }
 
-button {
+.button-banner {
   margin-top: 280px;
   margin-left: 210px;
   padding: 10px;
@@ -83,4 +83,82 @@ button {
 a {
   color: #ffffff;
   text-decoration: none;
+}
+
+.footer_box {
+  background-color: #30302f;
+  color: #ffffff;
+  z-index: 10;
+  position: relative;
+  height: 100px;
+}
+.footer_box .log {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer_box .log li {
+  display: inline-block;
+  margin: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.footer_box .log li h4 {
+  margin-top: 25px;
+}
+.footer_box .log li a {
+  text-decoration: none;
+  color: #427abe;
+}
+.footer_box .log li img {
+  width: 30px;
+  margin-top: 30px;
+}
+.footer_box .log .button-footer {
+  font-size: 12px;
+  margin-top: 25px;
+  padding: 10px;
+  background-color: #30302f;
+  border: 2px solid #427abe;
+}
+
+.main_box {
+  height: 400px;
+  background-color: #000000;
+  background-image: url("../img/footer-bg.jpg");
+  color: #ffffff;
+  position: relative;
+}
+.main_box .oldcol {
+  display: flex;
+}
+.main_box .oldcol img {
+  height: 140%;
+  position: absolute;
+  right: 160px;
+  top: -70px;
+}
+.main_box .oldcol .trecol {
+  width: 400px;
+  margin-top: 20px;
+}
+.main_box .oldcol .trecol .col1, .main_box .oldcol .trecol .col2, .main_box .oldcol .trecol .col3 {
+  display: flex;
+  padding-left: 40px;
+}
+.main_box .oldcol .trecol .col1 h4, .main_box .oldcol .trecol .col2 h4, .main_box .oldcol .trecol .col3 h4 {
+  margin-top: 15px;
+}
+.main_box .oldcol .trecol .col1 ul, .main_box .oldcol .trecol .col2 ul, .main_box .oldcol .trecol .col3 ul {
+  list-style-type: none;
+}
+.main_box .oldcol .trecol .col1 ul a, .main_box .oldcol .trecol .col2 ul a, .main_box .oldcol .trecol .col3 ul a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 10px;
+}
+
+.products {
+  background-color: cadetblue;
+  padding: 50px;
 }

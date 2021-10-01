@@ -1,0 +1,35 @@
+.main_box {
+    height: 400px;
+    background-color: $Black;
+    background-image: url("../img/footer-bg.jpg");
+    color: $White;
+    position: relative;
+    .oldcol {
+        display: flex;
+        img {
+            height: 140%;
+            position: absolute;
+            right: 160px;
+            top: -70px;
+        }
+        .trecol {
+            width: 400px;
+            margin-top: 20px;
+            .col1, .col2, .col3 {
+                display: flex;
+                padding-left: 40px;
+                h4 {
+                    margin-top: 15px;
+                }
+                ul {
+                    list-style-type: none;
+                    a {
+                        text-decoration: none;
+                        color: $White;
+                        font-size: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
