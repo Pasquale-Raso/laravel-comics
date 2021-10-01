@@ -9,6 +9,7 @@
 </head>
 <body >
     <header>
+    {{-- HEADER --}}
         <div class="top-header">
             <div class="container top-header-text">
                 <div>
@@ -20,7 +21,7 @@
             </div>
         </div>
         <div class="row container">
-            <img src="{{ asset('img/dc-logo.png') }}" alt="logo">
+            <a href="{{ url('/')}}"><img src="{{ asset('img/dc-logo.png') }}" alt="logo"></a>
             <ul>
                 <li><a href="{{ route('characters')}}">CHARACTERS</a></li>
                 <li><a href="{{ route('comics')}}">COMICS</a></li>
@@ -35,6 +36,12 @@
             </ul>
         </div>
     </header>
+    {{-- BANNER --}}
+    <div id="banner">
+        <div class="bannerbg">
+            <button><a href="#">CURRENT SERIES</a></button>
+        </div>
+    </div>
     
 </body>
 </html>

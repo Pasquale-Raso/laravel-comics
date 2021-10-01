@@ -21,10 +21,9 @@ header{
     .row{
         display: flex;
         justify-content: space-between;
-
         img{
-            height: 120px;
-            padding: 20px;
+            height: 80px;
+            padding: 10px;
         }
         ul {
             list-style-type: none;
@@ -36,7 +35,12 @@ header{
                 margin-left: 20px;
                 color: $Black;
                 font-weight: 700;
-                font-size: 14px;
+                font-size: 12px;
+                &:active, &:hover {
+                    color: $first-blue;
+                    padding-bottom: 30px;
+                    border-bottom: 4px solid $first-blue;
+                }
             }
         }
     }
