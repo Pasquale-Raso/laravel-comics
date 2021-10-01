@@ -4,9 +4,13 @@
     box-sizing: border-box;
   }
   
+  body{
+    background-color: $second-grey;
+    font-family: "DM Sans", sans-serif;
+
+  }
+
   .container {
     max-width: 1000px;
     margin: 0 auto;
-    background-color: $second-grey;
-    color: $first-blue;
   }

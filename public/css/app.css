@@ -4,9 +4,55 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #30302f;
+  font-family: "DM Sans", sans-serif;
+}
+
 .container {
   max-width: 1000px;
   margin: 0 auto;
-  background-color: #30302f;
-  color: #427abe;
+}
+
+header {
+  background-color: #ffffff;
+}
+header .top-header {
+  height: 25px;
+  width: 100%;
+  background-color: #427abe;
+  color: #ffffff;
+  padding: 5px;
+  font-size: 10px;
+}
+header .top-header sup {
+  font-size: 6px;
+}
+header .top-header .top-header-text {
+  display: flex;
+  justify-content: flex-end;
+}
+header .top-header .top-header-text .additional {
+  margin-left: 30px;
+}
+header .row {
+  display: flex;
+  justify-content: space-between;
+}
+header .row img {
+  height: 120px;
+  padding: 20px;
+}
+header .row ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+header .row ul a {
+  text-decoration: none;
+  margin-left: 20px;
+  color: #000000;
+  font-weight: 700;
+  font-size: 14px;
 }
