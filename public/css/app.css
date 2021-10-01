@@ -58,7 +58,7 @@ header .row ul a {
 }
 header .row ul a:active, header .row ul a:hover {
   color: #427abe;
-  padding-bottom: 30px;
+  padding-bottom: 26px;
   border-bottom: 4px solid #427abe;
 }
 

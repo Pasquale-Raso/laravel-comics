@@ -1,14 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Comics-Video</title>
-</head>
-<body>
-    <h1>Videos</h1>
+@extends('layouts.template');
+@section('Products')
+<h1>videos</h1>
     <li><a href="{{url('/')}}">HOME</a></li>
+@endsection
 
-</body>
-</html>
+@section('title')videos @endsection
