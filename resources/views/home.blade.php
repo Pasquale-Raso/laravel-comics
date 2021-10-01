@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Comics-home</title>
+    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 </head>
-<body>
+<body class="container">
     <img src="{{ asset('img/dc-logo.png') }}" alt="logo">
     <h1>HOME</h1>
     <ul>
