@@ -1,0 +1,34 @@
+.navbar_white_line {
+    height: 100px;
+    background-color: $for-grey;
+    color: $tre-grey;
+    display: flex;
+    align-items: center;
+    z-index: 8;
+    position: relative;
+    ul {
+        display: flex;
+        li {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+        }   
+    }
+    img {
+        width: 30px;
+        filter: invert(50%);
+        
+    }
+    p {
+        font-size: 11px;
+        padding: 8px;
+    }
+    .border{
+        border: solid 1px $tre-grey;
+        
+        padding: 27px 50px 27px 50px;
+
+    }
+}
+  

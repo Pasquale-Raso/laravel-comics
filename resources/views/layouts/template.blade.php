@@ -46,6 +46,8 @@
     <section>
         @yield('Products')
     </section>
+    {{-- NAVBAR ICONS --}}
+    @yield('Navbaricons')
     {{-- MAIN --}}
     <main>
         <div class="main_box">

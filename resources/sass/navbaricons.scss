@@ -1,0 +1,30 @@
+.navbar_blu_line {
+    height: 130px;
+    background-color: $first-blue;
+    color: $White;
+    display: flex;
+    align-items: center;
+    z-index: 8;
+    position: relative;
+    ul {
+        display: flex;
+        li {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 30px;
+            cursor: pointer;
+        }   
+    }
+    img {
+        width: 30px;
+    }
+    p {
+        font-size: 11px;
+        padding: 8px;
+    }  
+}
+  
+  
+  
+  
