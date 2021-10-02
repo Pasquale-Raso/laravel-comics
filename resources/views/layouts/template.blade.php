@@ -23,7 +23,7 @@
         <div class="row container">
             <a href="{{ url('/')}}"><img src="{{ asset('img/dc-logo.png') }}" alt="logo"></a>
             <ul>
-                <li><a href="{{ route('characters')}}">CHARACTERS</a></li>
+                <li ><a href="{{ route('characters')}}">CHARACTERS</a></li>
                 <li><a href="{{ route('comics')}}">COMICS</a></li>
                 <li><a href="{{ route('movies')}}">MOVIES</a></li>
                 <li><a href="{{ route('tv')}}">TV</a></li>
