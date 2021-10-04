@@ -1,22 +1,22 @@
-@import "fonts";
-@import "variables";
-@import "generics";
-@import "header";
-@import "banner";
-@import "footer";
-@import "main";
+@import "scss-basic/fonts";
+@import "scss-basic/variables";
+@import "scss-basic/generics";
+@import "scss-layouts/header";
+@import "scss-layouts/banner";
+@import "scss-layouts/footer";
+@import "scss-layouts/main";
 @import "navbaricons";
-@import "navbaricons-white-line";
-@import "scss-products-pages/characters";
-@import "scss-products-pages/collectibles";
-@import "scss-products-pages/comics";
-@import "scss-products-pages/fans";
-@import "scss-products-pages/games";
-@import "scss-products-pages/movie";
-@import "scss-products-pages/news";
-@import "scss-products-pages/shop";
-@import "scss-products-pages/tv";
-@import "scss-products-pages/videos";
+@import "scss-includes/navbaricons-white-line";
+@import "scss-pages/characters";
+@import "scss-pages/collectibles";
+@import "scss-pages/comics";
+@import "scss-pages/fans";
+@import "scss-pages/games";
+@import "scss-pages/movie";
+@import "scss-pages/news";
+@import "scss-pages/shop";
+@import "scss-pages/tv";
+@import "scss-pages/videos";
 
 
 
