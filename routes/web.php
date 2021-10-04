@@ -14,6 +14,14 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
+    return view('pages.home');
+})->name('home');
+
+Route::get('/characters', function () {
+    return view('pages.characters');
+})->name('characters');
+
+Route::get('/comics', function () {
     $series = [
         [
             "title" => "Action Comics #1000: The Deluxe Edition",
@@ -227,47 +235,42 @@ Route::get('/', function () {
             ],
         ],
     ];
-    // dump($series);
-
-    return view('home', ['comics' => $series]);
-})->name('home');
-
-Route::get('/characters', function () {
-    return view('characters');
-})->name('characters');
-
-Route::get('/comics', function () {
-    return view('comics');
+    return view('pages.comics', ['comics' => $series]);
 })->name('comics');
 
+
+Route::get('/comics-detail', function () {
+    return view('pages.comics-detail.comics-detail');
+})->name('comics-detail');
+
 Route::get('/movies', function () {
-    return view('movies');
+    return view('pages.movies');
 })->name('movies');
 
 Route::get('/tv', function () {
-    return view('tv');
+    return view('pages.tv');
 })->name('tv');
 
 Route::get('/games', function () {
-    return view('games');
+    return view('pages.games');
 })->name('games');
 
 Route::get('/collectibles', function () {
-    return view('collectibles');
+    return view('pages.collectibles');
 })->name('collectibles');
 
 Route::get('/videos', function () {
-    return view('videos');
+    return view('pages.videos');
 })->name('videos');
 
 Route::get('/fans', function () {
-    return view('fans');
+    return view('pages.fans');
 })->name('fans');
 
 Route::get('/news', function () {
-    return view('news');
+    return view('pages.news');
 })->name('news');
 
 Route::get('/shop', function () {
-    return view('shop');
+    return view('pages.shop');
 })->name('shop');

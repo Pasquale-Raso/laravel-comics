@@ -3,7 +3,9 @@
 @section('title')Home @endsection
 {{-- BUTTON CURRENT SERIES --}}
 @section('button-current-series')
-<button class="button-banner"><a href="#">CURRENT SERIES</a></button>
+<div class="container">
+<button class="button-banner"><a href="#">COMICS</a></button>
+</div>
 @endsection
 {{-- PRODUCTS --}}
 @section('Products')

@@ -1,7 +1,19 @@
+.box{
+    background-color: $cadetblue;
+    padding: 50px;
+    h1{
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 30px;
+        margin-bottom: 20px;
+        background-color: $first-blue;
+        color: $White;
+    }
+}
 .products-box {
-    color: white;
+    color: $White;
     height: 700px;
-    background-color: #30302f;
+    background-color: $second-grey;
 }
 .card-box {
     display: flex;
@@ -19,15 +31,14 @@
 }
 .button-products {
     padding: 15px 70px 15px 70px;
-    background-color: #427abe;
+    background-color: $first-blue;
     border: 0px;
     font-size: 20px;
     margin-top: 20px;
     cursor: pointer;
     a {
         font-size: 12px;
-        color: white;
+        color: $White;
         text-decoration: none;
     }
 }
-  
