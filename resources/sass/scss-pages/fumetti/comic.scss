@@ -1,0 +1,121 @@
+.box-comic{
+    background-color: $White;
+    .line-blue{
+        height: 80px;
+        background-color: $first-blue;
+        .img-cover{
+            margin-top: -180px;
+            border: solid 1px $White;
+            width: 150px;
+        }
+    }
+    .box-detail-comic{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 80px;
+        padding-bottom: 80px;
+
+        .section-a{
+            padding-right: 40px;
+
+            .h1big{
+                font-size: 25px;
+                color: rgb(8, 12, 0);
+                text-transform: uppercase;
+                padding-bottom: 20px;
+            }
+    
+            .box-green{
+                background-color: green;
+                display: flex;
+                justify-content: space-between;
+                .box-green-1{
+                    display: flex;
+                    justify-content: space-between;
+                    border-right: solid 1px black;
+                    width: 70%;
+                    text-align: center;
+                    padding: 15px;
+                    color: $White;
+                }
+                .box-green-2 {
+                    padding: 15px;
+                    color: $White;
+                }
+            }
+            h5{
+                color: grey;
+                line-height: 25px;
+                padding-top: 15px;
+            }
+        }
+        .section-b{
+            text-align: right;
+            color: rgb(8, 12, 0);
+        }
+    }
+    .section-grey{
+        background-color: $for-grey;
+        border-top: solid 1px $tre-grey;
+        border-bottom: solid 1px $tre-grey;
+
+        .box-section-grey{
+            color: rgb(5, 5, 37);
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 100px;
+            padding-top: 10px;
+           
+            
+            .box1-section-grey{
+                color: rgb(5, 5, 37);
+                padding: 10px;
+                width: 50%;
+
+                h4{
+                    margin-bottom: 20px;
+                }
+
+
+                .box-art, .box-written{
+                    display: flex;
+                    justify-content: space-between;
+                    border-bottom: solid 1px $tre-grey;
+                    border-top: solid 1px $tre-grey;
+                    padding: 5px;
+
+                    .art, .written {
+                        width: 50%;
+                        display: flex;
+                        justify-content: space-between;
+                        margin-bottom: 30px;
+                    }
+
+                    .artists, .writers {
+                        font-size: 10px;
+                        color: blue;
+                    }
+                }  
+            }
+
+            .box2-section-grey{
+                color: rgb(5, 5, 37);
+                width: 50%;
+                padding: 10px;
+
+                h4{
+                    margin-bottom: 20px;
+                }
+
+                .box-Series, .box-us, .box-dates {
+                    display: flex;
+                    justify-content: space-between;
+                    border-bottom: solid 1px $tre-grey;
+                    border-top: solid 1px $tre-grey;
+                    padding: 5px;
+                }
+            }
+        }
+    }
+  
+}

@@ -1,15 +1,3 @@
-.box{
-    background-color: $cadetblue;
-    padding: 50px;
-    h1{
-        text-align: center;
-        text-transform: uppercase;
-        font-size: 30px;
-        margin-bottom: 20px;
-        background-color: $first-blue;
-        color: $White;
-    }
-}
 .products-box {
     color: $White;
     height: 700px;
@@ -33,7 +21,6 @@
     padding: 15px 70px 15px 70px;
     background-color: $first-blue;
     border: 0px;
-    font-size: 20px;
     margin-top: 20px;
     cursor: pointer;
     a {

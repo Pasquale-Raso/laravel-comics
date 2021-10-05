@@ -186,7 +186,7 @@ a {
 
 .navbar_white_line {
   height: 100px;
-  background-color: #b3b3b3;
+  background-color: #dad8d8;
   color: #808080;
   display: flex;
   align-items: center;
@@ -241,19 +241,6 @@ a {
   color: #ffffff;
 }
 
-.box {
-  background-color: #5f9ea0;
-  padding: 50px;
-}
-.box h1 {
-  text-align: center;
-  text-transform: uppercase;
-  font-size: 30px;
-  margin-bottom: 20px;
-  background-color: #427abe;
-  color: #ffffff;
-}
-
 .products-box {
   color: #ffffff;
   height: 700px;
@@ -278,7 +265,6 @@ a {
   padding: 15px 70px 15px 70px;
   background-color: #427abe;
   border: 0px;
-  font-size: 20px;
   margin-top: 20px;
   cursor: pointer;
 }
@@ -377,4 +363,111 @@ a {
   margin-bottom: 20px;
   background-color: #427abe;
   color: #ffffff;
+}
+
+.box-comic {
+  background-color: #ffffff;
+}
+.box-comic .line-blue {
+  height: 80px;
+  background-color: #427abe;
+}
+.box-comic .line-blue .img-cover {
+  margin-top: -180px;
+  border: solid 1px #ffffff;
+  width: 150px;
+}
+.box-comic .box-detail-comic {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.box-comic .box-detail-comic .section-a {
+  padding-right: 40px;
+}
+.box-comic .box-detail-comic .section-a .h1big {
+  font-size: 25px;
+  color: #080c00;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+.box-comic .box-detail-comic .section-a .box-green {
+  background-color: green;
+  display: flex;
+  justify-content: space-between;
+}
+.box-comic .box-detail-comic .section-a .box-green .box-green-1 {
+  display: flex;
+  justify-content: space-between;
+  border-right: solid 1px black;
+  width: 70%;
+  text-align: center;
+  padding: 15px;
+  color: #ffffff;
+}
+.box-comic .box-detail-comic .section-a .box-green .box-green-2 {
+  padding: 15px;
+  color: #ffffff;
+}
+.box-comic .box-detail-comic .section-a h5 {
+  color: grey;
+  line-height: 25px;
+  padding-top: 15px;
+}
+.box-comic .box-detail-comic .section-b {
+  text-align: right;
+  color: #080c00;
+}
+.box-comic .section-grey {
+  background-color: #dad8d8;
+  border-top: solid 1px #808080;
+  border-bottom: solid 1px #808080;
+}
+.box-comic .section-grey .box-section-grey {
+  color: #050525;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+  padding-top: 10px;
+}
+.box-comic .section-grey .box-section-grey .box1-section-grey {
+  color: #050525;
+  padding: 10px;
+  width: 50%;
+}
+.box-comic .section-grey .box-section-grey .box1-section-grey h4 {
+  margin-bottom: 20px;
+}
+.box-comic .section-grey .box-section-grey .box1-section-grey .box-art, .box-comic .section-grey .box-section-grey .box1-section-grey .box-written {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: solid 1px #808080;
+  border-top: solid 1px #808080;
+  padding: 5px;
+}
+.box-comic .section-grey .box-section-grey .box1-section-grey .box-art .art, .box-comic .section-grey .box-section-grey .box1-section-grey .box-art .written, .box-comic .section-grey .box-section-grey .box1-section-grey .box-written .art, .box-comic .section-grey .box-section-grey .box1-section-grey .box-written .written {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.box-comic .section-grey .box-section-grey .box1-section-grey .box-art .artists, .box-comic .section-grey .box-section-grey .box1-section-grey .box-art .writers, .box-comic .section-grey .box-section-grey .box1-section-grey .box-written .artists, .box-comic .section-grey .box-section-grey .box1-section-grey .box-written .writers {
+  font-size: 10px;
+  color: blue;
+}
+.box-comic .section-grey .box-section-grey .box2-section-grey {
+  color: #050525;
+  width: 50%;
+  padding: 10px;
+}
+.box-comic .section-grey .box-section-grey .box2-section-grey h4 {
+  margin-bottom: 20px;
+}
+.box-comic .section-grey .box-section-grey .box2-section-grey .box-Series, .box-comic .section-grey .box-section-grey .box2-section-grey .box-us, .box-comic .section-grey .box-section-grey .box2-section-grey .box-dates {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: solid 1px #808080;
+  border-top: solid 1px #808080;
+  padding: 5px;
 }
