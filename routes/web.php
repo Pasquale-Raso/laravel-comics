@@ -25,12 +25,13 @@ Route::get('/comics', function () {
     return view('pages.comics', ['comics' => config("fumetti")]);
 })->name('comics');
 
+// passaggio Fumetti a singola pagina
 
-Route::get('/fumetti', function () {
-    $fumetti = config('fumetti');
-    $fumetto = $fumetti [1];
-    return view('pages.fumetti.fumetti', compact('fumetto'));
-})->name('fumetto');
+Route::get('/comics/{id}', function ($id) {
+    $comics = config("fumetti");
+    $comic = $comics[$id];
+    return view('pages.fumetti.comic', ['comic' => $comic]);
+})->name('fumetti');
 
 Route::get('/movies', function () {
     return view('pages.movies');

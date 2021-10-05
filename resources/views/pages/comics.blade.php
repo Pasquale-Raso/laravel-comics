@@ -14,7 +14,7 @@
         <div class="card-box ">
             @foreach ($comics as $comic)
             <div class="card">
-            <img src="{{$comic['thumb']}}" alt="">
+            <a href="{{url("/comics/$loop->index") }}"><img src="{{$comic['thumb']}}" alt=""></a>
             <h4>{{$comic['title']}}</h4>
           </div>
             @endforeach
